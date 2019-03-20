@@ -3,7 +3,7 @@ back end for city explorer app
 
 # Project Name
 
-**Author**: Your Name Goes Here
+**Author**: Bonnie Wang and Jagdeep Singh
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
