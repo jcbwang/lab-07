@@ -1,21 +1,22 @@
 {
   "name": "lab-07",
   "version": "1.0.0",
-  "description": "backend for city explorer",
+  "description": "backend for city explorer app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JagdeepSing/lab-06-back-end.git"
+    "url": "git+https://github.com/jcwang118/lab-07.git"
   },
-  "author": "Jagdeep Singh, Trey Herndon",
+  "author": "Bonnie Wang and Jagdeep Singh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JagdeepSing/lab-06-back-end/issues"
+    "url": "https://github.com/jcwang118/lab-07/issues"
   },
-  "homepage": "https://github.com/JagdeepSing/lab-06-back-end#readme",
+  "homepage": "https://github.com/jcwang118/lab-07#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^7.0.0",
