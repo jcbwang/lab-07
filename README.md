@@ -34,21 +34,21 @@ Credit should be given to CodeFellows for providing all of the frontend javascri
 
 ### Part 1: Jagdeep Singh and Trey Herndon 
 
-Number and name of feature: #1: Locations
+Number and name of feature: #1: Locations Route
 
 Estimate of time needed to complete: 1 hour
 Start time: 9am
 Finish time: 10am
 Actual time needed to complete: 1 hour
 
-Number and name of feature: #2: Weather
+Number and name of feature: #2: Weather Route
 
 Estimate of time needed to complete: 1 hour
 Start time: 10am
 Finish time: 11:15am
 Actual time needed to complete: 1:15 minutes
 
-Number and name of feature: #3: Errors
+Number and name of feature: #3: Error Handling
 
 Estimate of time needed to complete: 1 hour
 Start time: 11:15am
@@ -58,7 +58,7 @@ Actual time needed to complete: 1:05 minutes
 
 ### Part 2: Bonnie Wang and Jagdeep Singh
 
-Number and name of feature: #1: Data Formatting
+Number and name of feature: #1: Data Formatting (constructors)
 
 Estimate of time needed to complete: 20 mins
 Start time: 8:30am
@@ -66,7 +66,7 @@ Finish time: 8:55am
 Actual time needed to complete: 25 mins
 
 
-Number and name of feature: #2: Locations
+Number and name of feature: #2: Locations route refactor
 
 Estimate of time needed to complete: 30 mins
 Start time: 9:00am
@@ -74,14 +74,14 @@ Finish time: 9:30am
 Actual time needed to complete: 30 mins
 
 
-Number and name of feature: #3: Weather
+Number and name of feature: #3: Weather route refactor
 Estimate of time needed to complete: 30 mins
 Start time: 9:40am
 Finish time: 9:55am
 Actual time needed to complete: 15 mins
 
 
-Number and name of feature: #4: Meetups
+Number and name of feature: #4: Meetups route
 
 Estimate of time needed to complete: 50 mins
 Start time: 10:00am
