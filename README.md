@@ -35,23 +35,45 @@ Credit should be given to CodeFellows for providing all of the frontend javascri
 
 
 
-Number and name of feature: 
+Number and name of feature: #1, Data Formatting
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 20 mins
 
-Start time: 
+Start time: 8:30am
 
-Finish time: 
+Finish time: 8:55am
 
-Actual time needed to complete: 
+Actual time needed to complete: 25 mins
 
 
-Number and name of feature: 
+Number and name of feature: #2, Locations
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 30 mins
 
-Start time: 
+Start time: 9:00am
 
-Finish time: 
+Finish time: 9:30am
 
-Actual time needed to complete: _____
+Actual time needed to complete: 30 mins
+
+
+Number and name of feature: #3, Weather
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 9:40am
+
+Finish time: 9:55am
+
+Actual time needed to complete: 15 mins
+
+
+Number and name of feature: #4, Meetups
+
+Estimate of time needed to complete: 50 mins
+
+Start time: 10:00am
+
+Finish time: 10:30am
+
+Actual time needed to complete: 30 mins
