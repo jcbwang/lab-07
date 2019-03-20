@@ -20,8 +20,8 @@ app.get('/location', getLocation);
 // Keys: forecast, time
 app.get('/weather', getWeather);
 
-// TODO: create a getMeetups function
-// app.get('/meetups', getMeetups);
+// create a getMeetups function
+app.get('/meetups', getMeetups);
 
 // TODO: create a getYelp function
 // app.get('/yelp', getYelp);
@@ -60,6 +60,27 @@ function getWeather(req, res) {
     .catch(error => handleError(error));
 }
 
+// Meetups function
+function getMeetups(req,res) {
+  const meetup_url = `https://api.meetup.com/find/upcoming_events?lat=${req.query.data.latitude}&lon=${req.query.data.longitude}&sign=true&photo-host=public&page=20&key=${process.env.MEETUP_API_KEY}`;
+
+  return superagent.get(meetup_url)
+    .then(result => {
+      const eventsList = result.body.events.map(event => {
+        return new Event(event);
+      });
+      res.send(eventsList);
+    })
+    .catch(error => handleError(error));
+}
+
+// Event object constructor
+function Event(data){
+  this.link = data.link;
+  this.name = data.name;
+  this.creation_date = formatTime(data.created);
+  this.host = data.group.name;
+}
 
 // Location object constructor
 function Location(data, query) {
@@ -72,5 +93,10 @@ function Location(data, query) {
 // Forecast object constructor
 function Forecast(day) {
   this.forecast = day.summary;
-  this.time = new Date(day.time*1000).toString().slice(0,15);
+  this.time = formatTime(day.time*1000);
+}
+
+// converts millisecond time to 'Day Month Date Year' format
+function formatTime(msTime) {
+  return new Date(msTime).toString().slice(0,15);
 }
