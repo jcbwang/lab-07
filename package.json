@@ -1,7 +1,7 @@
 {
   "name": "lab-07",
   "version": "1.0.0",
-  "description": "city explorer day 2",
+  "description": "city explorer backend",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/jcwang118/lab-07.git"
   },
-  "author": "Jagdeep Singh and Bonnie Wang",
+  "author": "Bonnie Wang and Jagdeep Singh",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jcwang118/lab-07/issues"
